@@ -21,8 +21,4 @@ public class MainController {
         return "about";
     }
 
-    @GetMapping("/blog")
-    public String blog(){
-        return "blog";
-    }
 }
