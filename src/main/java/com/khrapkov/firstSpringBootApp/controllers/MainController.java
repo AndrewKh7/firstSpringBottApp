@@ -15,4 +15,14 @@ public class MainController {
         model.addAttribute("name", (name == null ? "unknown" : name));
         return "home";
     }
+
+    @GetMapping("/about")
+    public String about(){
+        return "about";
+    }
+
+    @GetMapping("/blog")
+    public String blog(){
+        return "blog";
+    }
 }
