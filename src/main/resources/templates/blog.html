@@ -10,7 +10,7 @@
 
     <header th:insert="blocks/header :: header"/>
 
-    <section class="jumbotron text-center">
+<!--    <section class="jumbotron text-center">-->
         <div class="container">
             <h1>Блог</h1>
             <div th:each="el : ${posts}" class="alert alert-info mt-2">
@@ -19,7 +19,7 @@
                 <a th:href="'/blog/'+${el.id}">Детальнее</a>
             </div>
         </div>
-    </section>
+<!--    </section>-->
 
     <footer th:insert="blocks/footer :: footer"/>
 
